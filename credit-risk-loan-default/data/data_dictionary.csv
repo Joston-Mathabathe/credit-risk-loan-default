@@ -1,0 +1,13 @@
+column,description,type
+loan_id,Unique synthetic loan application ID,ID
+age,Applicant age,Numeric
+annual_income,Annual income,Numeric
+credit_score,Synthetic credit score,Numeric
+debt_to_income,Debt-to-income ratio,Numeric
+loan_amount,Requested loan amount,Numeric
+employment_status,Employment category,Categorical
+loan_purpose,Loan purpose,Categorical
+employment_tenure_years,Years in employment,Numeric
+late_payments_12m,Late payments in prior 12 months,Numeric
+existing_credit_accounts,Existing credit accounts,Numeric
+default,Synthetic default outcome,Binary
