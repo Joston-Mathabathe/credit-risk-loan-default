@@ -1,4 +1,4 @@
-# Power BI Dashboard Guide
+# Power BI Dashboard Plan
 
 ## Dashboard objective
 Create a credit-risk dashboard that helps stakeholders understand loan applications and default patterns.
@@ -30,7 +30,7 @@ Slicers:
 - Income band
 
 ## Page 3 — Model Results
-Display:
+Displays:
 - Model comparison table
 - ROC-AUC
 - Precision
