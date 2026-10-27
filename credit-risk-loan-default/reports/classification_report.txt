@@ -1,0 +1,10 @@
+Selected model by ROC-AUC: Logistic Regression
+
+              precision    recall  f1-score   support
+
+           0       0.93      0.77      0.85       824
+           1       0.41      0.74      0.53       176
+
+    accuracy                           0.77      1000
+   macro avg       0.67      0.76      0.69      1000
+weighted avg       0.84      0.77      0.79      1000

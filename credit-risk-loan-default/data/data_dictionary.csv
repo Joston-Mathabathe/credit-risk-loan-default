@@ -1,0 +1,18 @@
+column,type,description
+loan_id,Identifier,Synthetic loan identifier
+customer_id,Identifier,Synthetic customer identifier
+age,Numeric,Applicant age in years
+annual_income,Numeric,Annual income in local-currency-style units
+employment_status,Categorical,Employment category
+employment_length_years,Numeric,Length of employment in years
+credit_score,Numeric,"Synthetic credit score, 300-850"
+loan_amount,Numeric,Requested loan amount
+loan_term_months,Numeric,Loan term in months
+interest_rate,Numeric,Annual interest rate percentage
+existing_loans,Numeric,Number of existing loans
+previous_defaults,Numeric,Count of previous defaults
+debt_to_income_ratio,Numeric,Debt-to-income ratio
+home_ownership,Categorical,Housing status
+loan_purpose,Categorical,Purpose of loan
+application_channel,Categorical,Application channel
+default,Target,Observed default indicator: 0/1

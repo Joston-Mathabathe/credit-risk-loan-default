@@ -1,0 +1,19 @@
+policy,lgd,net_margin,net_benefit_Rm
+A: decline Very High tier (PD >= 40%),0.3,0.02,27.543501539999998
+A: decline Very High tier (PD >= 40%),0.3,0.04,25.049544179999998
+A: decline Very High tier (PD >= 40%),0.3,0.06,22.555586820000002
+A: decline Very High tier (PD >= 40%),0.45,0.02,42.56223099
+A: decline Very High tier (PD >= 40%),0.45,0.04,40.06827363
+A: decline Very High tier (PD >= 40%),0.45,0.06,37.574316270000004
+A: decline Very High tier (PD >= 40%),0.6,0.02,57.58096044
+A: decline Very High tier (PD >= 40%),0.6,0.04,55.087003079999995
+A: decline Very High tier (PD >= 40%),0.6,0.06,52.59304572
+B: decline High and Very High tiers (PD >= 25%),0.3,0.02,39.212357309999994
+B: decline High and Very High tiers (PD >= 25%),0.3,0.04,32.96168831999999
+B: decline High and Very High tiers (PD >= 25%),0.3,0.06,26.71101933
+B: decline High and Very High tiers (PD >= 25%),0.45,0.02,61.94387046
+B: decline High and Very High tiers (PD >= 25%),0.45,0.04,55.69320147
+B: decline High and Very High tiers (PD >= 25%),0.45,0.06,49.442532480000004
+B: decline High and Very High tiers (PD >= 25%),0.6,0.02,84.67538361
+B: decline High and Very High tiers (PD >= 25%),0.6,0.04,78.42471461999999
+B: decline High and Very High tiers (PD >= 25%),0.6,0.06,72.17404563

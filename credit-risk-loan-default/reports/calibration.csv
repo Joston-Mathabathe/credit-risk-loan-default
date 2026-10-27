@@ -1,0 +1,3 @@
+variant,brier_score,mean_predicted_pd,observed_default_rate
+"Logistic Regression (balanced, uncalibrated)",0.16812717206614958,0.4004798269004916,0.176
+Logistic Regression (sigmoid-calibrated),0.11115194265398214,0.16909168640218042,0.176
