@@ -1,6 +1,6 @@
 # Credit Risk Analytics: Predicting Loan Default
 
-**Python | pandas | scikit-learn | SQL | Power BI (specification)**
+**Python | pandas | scikit-learn | SQL | Power BI**
 
 > **Data note:** this project uses a **synthetic** dataset of 5,000 loan applications. No real customer data is used, and results do not describe any real bank or lending book.
 
@@ -157,6 +157,7 @@ credit-risk-loan-default/
 │   └── data_dictionary.csv
 ├── notebooks/credit_risk_analysis.ipynb      (executed, outputs visible)
 ├── reports/                                   (metrics and tables, CSV/JSON/TXT)
+├── powerbi/                                   (dashboard .pbix + page screenshots)
 ├── sql/credit_risk_analysis.sql
 ├── src/
 │   ├── cleaning.py
@@ -167,7 +168,6 @@ credit-risk-loan-default/
 ├── visualisations/
 ├── MODEL_CARD.md
 ├── POWER_BI_DASHBOARD.md
-├── INTERVIEW_PREP.md
 ├── requirements.txt
 └── README.md
 ```
@@ -193,7 +193,11 @@ Or run each step separately: `python src/cleaning.py`, `python src/eda.py`, `pyt
 
 ## Power BI
 
-`POWER_BI_DASHBOARD.md` gives a dashboard specification and DAX measures for building a four-page dashboard from `data/processed/loan_applications_clean.csv`.
+`powerbi/Credit_Risk_Power bi.pbix` is a four-page dashboard built on `data/processed/loan_applications_clean.csv`: executive overview, borrower risk, model performance and credit strategy. Screenshots of each page are in `powerbi/`, and `POWER_BI_DASHBOARD.md` documents the page design and DAX measures.
+
+![Executive overview](powerbi/01_Executive_Overview.png)
+
+Other pages: [Borrower Risk](powerbi/02_Borrower_Risk.png) · [Model Performance](powerbi/03_Model_Performance.png) · [Credit Strategy](powerbi/04_Credit_Strategy.png)
 
 ---
 
@@ -217,7 +221,6 @@ Credit models affect access to financial products. Before any real use, an insti
 - Fairness testing across segments
 - Model monitoring
 - Benchmarking on a real public credit dataset
-- Built Power BI report (.pbix)
 - Automated tests and CI
 
 ## Author
